@@ -1,0 +1,206 @@
+/* VARIABLES */
+:root {
+    --red-color: red;
+    --blue-color: blue;
+}
+
+/* END HERE */
+
+header div {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  top: 0;
+}
+
+.aldhanekawebsite {
+  text-decoration: none;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 30px;
+  color: red;
+}
+
+.aldhanekawebsite:hover {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 35px;
+  color: white;
+}
+
+.aldhanekawebsitea:active {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: -40px;
+  color: white;
+}
+
+/* COLOR */
+.red-text {
+    color: var(--red-color)
+  }
+  
+  .blue-text {
+    color: var(--blue-color);
+  }
+
+  .green-text {
+    color: green;
+  }
+
+  .yellow-text {
+    color: yellow;
+  }
+
+/* END HERE */
+
+/* ELSE */
+
+  .thick-blue-border {
+    border-color: darkblue;
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 50%;
+    
+  }
+
+  .image-cat {
+    text-align: center;
+  }
+
+/* END */
+
+/* FONTS */
+
+  .font-size-20px {
+    font-size: 20px;
+  }
+
+  .font-size-30px {
+    font-size: 30px;
+  }
+
+  .font-size-50px {
+    font-size: 50px;
+  }
+
+  .font-size-18px {
+    font-size: 18px;
+  }
+
+  .piedra-font {
+    font-family: Piedra;
+  }
+
+  .lobster-font {
+    font-family: Lobster;
+  }
+
+  .lobster-two-font {
+    font-family: 'Lobster Two';
+  }
+
+/* END */
+
+  .blue-box {
+    padding: 20px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue;
+    color: #fff;
+  }
+
+  .blue-box:hover {
+    background-color: transparent;
+    color: blue;
+  }
+
+  .transparancy-blue-box {
+    padding: 20px 30px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: blue;
+  }
+
+  .transparancy-blue-box:hover {
+    color: white;
+    background-color: var(--blue-color);
+  }
+
+ /* BOX */
+.container-1 {
+  margin: 20px auto;
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.full-card {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 10px 5px;
+  padding: 10px;
+  background-color: white;
+  transition: 0.8s;
+}
+
+.full-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-content li {
+  text-align: left;
+}
+
+.btn {
+  text-align: center;
+  border: 5px solid cyan;
+  border-radius: 20px;
+  background-color: cyan;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  transition: .55s;
+}
+
+.btn a{
+  text-decoration: none;
+}
+
+.btn-parent {
+  display: inline-block;
+  height: 90px;
+  overflow: hidden;
+}
+
+.btn-parent:hover {
+  transform: rotateY(180deg);
+}
+
+.btn-parent:hover .btn {
+  border: 5px solid cyan;
+  background-color: transparent;
+  color: cyan;
+  transform: rotateY(180deg);
+}

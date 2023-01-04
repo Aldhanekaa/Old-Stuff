@@ -1,0 +1,54 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.btn1 {
+    text-align: center;
+    border: 5px solid cyan;
+    border-radius: 20px;
+    background-color: cyan;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+    color: white;
+    transition: .55s;
+}
+
+.btn1 a{
+    text-decoration: none;
+}
+
+.btn1-parent:hover .btn1{
+    border: 5px solid cyan;
+    background-color: transparent;
+    color: cyan;
+    transform: rotateY(180deg);
+}
+
+.btn2 {
+    text-align: center;
+    border: 5px solid cyan;
+    border-radius: 20px;
+    background-color: cyan;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    transition: .55s;
+}
+
+.btn2-parent:hover {
+    transform: rotateY(180deg);
+}
+
+.btn2-parent {
+    height: 80px;
+}
+
+.btn2-parent:hover .btn2{
+    border: 5px solid cyan;
+    background-color: transparent;
+    color: cyan;
+    transform: rotateY(180deg);
+}

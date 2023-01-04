@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<link rel="stylesheet" href="timing-function.css">
+
+<style>
+    .kotak5 {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        background-color: yellowgreen;
+        text-align: center;
+        transition: 2s cubic-bezier(.97, -0.51, .02, 1.38);
+        margin: 5px 0;
+    }
+</style>
+
+<body>
+    <h1 style="text-align: center;">CSS Timing Function</h1>
+    <div class="parent">
+        <div class="parent2">Hover Me !</div>
+        <div class="kotak">ease</div>
+        <div class="kotak2">ease-in</div>
+        <div class="kotak3">ease-out</div>
+        <div class="kotak4">ease-in-out</div>
+        <div class="kotak5">Cubic-bazier</div>
+    </div>
+    <h1 class="cubic">for cubic bazier you can check <a href="https://cubic-bezier.com/" target="_blank">this
+            website</a></h1>
+</body>
+
+</html>

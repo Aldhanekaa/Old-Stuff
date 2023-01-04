@@ -1,0 +1,13 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.satu {
+    padding: 10px;
+    background-color: aqua;
+}
+
+.dua {
+    background-color: yellowgreen;
+}

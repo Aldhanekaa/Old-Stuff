@@ -1,0 +1,101 @@
+.parent {
+    width: 1200px;
+    position: relative;
+    background-color: rgba(0, 2, 0, 0.3);
+    height: 520px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.parent2 {
+    background-color: rgba(0, 2, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    text-align: center;
+    line-height: 520px;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+    transition: 2s ease;
+    margin: 5px 0;
+}
+
+
+.kotak2 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+    transition: 2s ease-in;
+    margin: 5px 0;
+}
+
+.kotak3 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+    transition: 2s ease-out;
+    margin: 5px 0;
+}
+
+.kotak4 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+    transition: 2s ease-in-out;
+    margin: 5px 0;
+}
+
+.parent:hover .kotak {
+    background-color: red;
+    margin-left: 1050px;
+}
+
+.parent:hover .kotak2 {
+    background-color: red;
+    margin-left: 1050px;
+}
+
+.parent:hover .kotak3 {
+    background-color: red;
+    margin-left: 1050px;
+}
+
+.parent:hover .kotak4 {
+    background-color: red;
+    margin-left: 1050px;
+}
+
+.parent:hover .kotak5 {
+    background-color: red;
+    margin-left: 1050px;
+}
+
+.cubic {
+    text-transform: capitalize;
+}
+
+.cubic a {
+    color: #333;
+    text-decoration: none;
+}
+
+.cubic a:hover {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
